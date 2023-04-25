@@ -1,5 +1,8 @@
 #include "sort.h"
 
+size_t _partition(int *array, size_t low, size_t high);
+void sorting_algo(int *array, size_t low, size_t high);
+void quick_sort(int *array, size_t size);
 
 
 /**
