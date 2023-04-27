@@ -18,7 +18,7 @@ size_t i, j;
 
 piv = array[high];
 i = low - 1;
-for (j = 0; j < high - 1; j++)
+for (j = low; j <= high - 1; j++)
 {
 if (array[j] < piv)
 {
@@ -65,7 +65,7 @@ void quick_sort(int *array, size_t size)
 
 size_t low, high;
 
-printf("I am ok");
+printf("I am ok\n");
 
 if (size > 0)
 {
